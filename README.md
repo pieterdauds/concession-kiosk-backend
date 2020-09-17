@@ -5,7 +5,6 @@ This is the backend component for the concession kiosk application. The backend 
 # How to Deploy on OpenShift
 
 ```
-oc new-project concession-kiosk
 oc new-app https://github.com/jankleinert/concession-kiosk-backend --name backend
 ```
 
